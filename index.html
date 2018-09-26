@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+<html>
+<title>Index ✦ MeiTube</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
+<body style="max-width:100%">
+
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+  <br>
+  <div class="w3-padding w3-center">
+  </div>
+</div>
+<a class="w3-bar-item w3-button" href="index.html">Home</a>
+<a class="w3-bar-item w3-button" href="trending.html">Trending</a>
+<a class="w3-bar-item w3-button" href="subscriptions.html">Subscriptions</a>
+<a class="w3-bar-item w3-button" href="recommended.html">Recommended</a>
+</nav>
+
+<header class="w3-bar w3-card w3-theme">
+<button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+<h1 class="w3-bar-item">MeiTube</h1>
+</header>
+<script class="sidebar">
+closeSidebar();
+function openSidebar() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function closeSidebar() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+<div class="recommended">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body class="recommended1">
+
+<main-column>Recommended
+<p>Put recommended videos here :)</p>
+</main-column>
+</body>
+</div>
+</html>
+
+<style>
+ .recommended {
+  text-align: center;
+  background-color: white;
+  margin-top: 0px;
+ }
+ .top {
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+ }
+ .subscriptions {
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+  display: block;
+ }
+ p {
+ 	background-color: white;
+  text-align: justify;
+  
+ }
+</style>
+<div class="top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body class="top1">
+
+<main-column>Trending
+<p>Put trending videos here :)</p>
+</main-column>
+</body>
+</div>
+
+<div class="subscriptions">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body class="top1">
+
+<main-column>Subscriptions
+<p>Put account subscriptions here :)</p>
+</main-column>
+</body>
+</div>
+
